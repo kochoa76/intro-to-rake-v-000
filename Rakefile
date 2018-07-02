@@ -6,7 +6,7 @@ task :environment do
 end
 
 desc 'outputs hello to the terminal'
-namespace :greeting do 
+namespace :greeting do
     task :hello do
       puts "hello from Rake!"
     end
